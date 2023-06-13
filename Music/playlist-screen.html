@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Playlist</title>
+</head>
+<body>
+    <!-- Header section - contains the navigation bar -->
+    <header>
+        <div class="navbar">
+            <div id="logo">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="images/player.png" alt="logo"/></a>
+            </div>
+            <div id="favs">
+                Favorites
+            </div>
+            <div id="search-bar">
+                <input placeholder="Search bar">
+            </div>
+            <div id="bell">
+                <i class="fa fa-bell-o"></i>
+            </div>
+            <div id="profile">
+                <img src="images/s2.jpg.png" alt="profile pic"/>
+            </div>
+        </div>
+    </header>
+    <!-- HTML for the Playlist screen -->
+    <div class="container" id="playlist-screen">
+        <section class="main">
+            <!-- Playlist introduction section. -->
+            <!-- Contains information about the playlist, specifically an image and some text. -->
+            <div class="playlist-intro">
+                <div class="playlist-image">
+                    <img src="images/coldplay.png" alt="Coldplay">
+                </div>
+                <div class="playlist-content">
+                    <div class="name">
+                        <span class="heading">Coldplay</span>
+                        <span class="followers">851 followers</span>
+                    </div>
+                    <div class="origin">
+                        <p>British Band</p>
+                    </div>
+                    <p>
+                        Coldplay are a British rock band formed in London in 1996. Vocalist, rhythm guitarist and pianist Chris Martin, lead guitarist 
+                        Jonny Buckland, bassist Guy Berryman, and drummer Will Champion met at University College London and began playing music together 
+                        from 1996 to 1998, first calling themselves Pectoralz and then Starfish before finally changing their name to Coldplay.
+                        Their creative director and former manager Phil Harvey is often referred to as the fifth member by the band.
+                    </p>
+                    <div class="play-btn">
+                        <div class="btn">
+                            Play All
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- HTML for the playlist songs -->
+            <div class="playlist-songs">
+                <div class="queue">
+                    <div class="queue-item">
+                        <div class="serial">
+                            01
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s1.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-heart-o"></i><i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="serial">
+                            02
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s2.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-heart-o"></i><i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="serial">
+                            03
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s3.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-heart-o"></i><i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="serial">
+                            04
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s4.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-heart-o"></i><i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="serial">
+                            05
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s1.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-heart-o"></i><i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="serial">
+                            06
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s2.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-heart-o"></i><i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="serial">
+                            01
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s1.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-heart-o"></i><i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="serial">
+                            02
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s2.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-heart-o"></i><i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="serial">
+                            03
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s3.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-heart-o"></i><i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Aside for the similar artists and recently played songs -->
+        <aside>
+            <!-- Similar artists -->
+            <div class="similar-artists">
+                <span class="heading">
+                    Similar Artists
+                </span>
+                <span class="controls">
+                    View All
+                </span>
+                <div class="queue">
+                    <div class="queue-item">
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s1.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s2.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s3.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s4.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Recently played songs -->
+            <div class="recently-played">
+                <span class="heading">
+                    Recently Played
+                </span>
+                <span class="controls">
+                    View All
+                </span>
+                <div class="queue">
+                    <div class="queue-item">
+                        <div class="serial">
+                            01
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s1.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            &#9825;
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="serial">
+                            02
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s2.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            &#9825;
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="serial">
+                            03
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s3.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            &#9825;
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="serial">
+                            04
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s4.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            &#9825;
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="serial">
+                            05
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s1.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            &#9825;
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="serial">
+                            06
+                        </div>
+                        <div class="item-image">
+                            <div class="play">
+                                <a href="#mplayer"><i class="play-button"></i></a>
+                            </div>
+                            <img src="images/s2.jpg.png">
+                        </div>
+                        <div class="item-content">
+                            <div>
+                                Mirage
+                            </div>
+                            <p>Else</p>
+                        </div>
+                        <div class="like">
+                            &#9825;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <!-- HTML for the music player -->
+    <div id="mplayer">
+        <div class="container">
+            <div class="queue-item" id="info">
+                <div class="item-image">
+                    <img src="images/s1.jpg.png">
+                </div>
+                <div class="item-content">
+                    <div>
+                        Mirage
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa fa-ban"></i>
+                    </div>
+                    <p>Else</p>
+                </div>
+            </div>
+            <!-- Controls for the music player -->
+            <div id="controls">
+                <div id="play-pause">
+                    <i class="fa fa-random"></i>
+                    <i class="fa fa-step-backward"></i>
+                    <i class="fa fa-pause fa-lg"></i>
+                    <i class="fa fa-step-forward"></i>
+                    <i class="fa fa-repeat"></i>
+                </div>
+                <div id="seeker-container">
+                    <div id="seeker">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Sub controls for the music player -->
+            <div id="sub-controls">
+                <i class="fa fa-bars"></i>
+                <i class="fa fa-desktop"></i>
+                <i class="fa fa-volume-up"></i>
+                <div id="seeker">
+                    <span></span>
+                </div>
+                <i class="fa fa-arrows-alt"></i>
+            </div>
+            <!-- Close button to close the music player -->
+            <a id="close-btn" href="#"><i class="close fa fa-times"></i></a>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>
